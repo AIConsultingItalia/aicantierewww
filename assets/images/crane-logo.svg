@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="craneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="craneBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container badge / squircle -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#craneBg)" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.35"/>
+
+  <!-- Base / Platform -->
+  <path d="M14 53h18" stroke="url(#craneGrad)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M18 53l3-6h4l3 6" stroke="url(#craneGrad)" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Tower / Mast -->
+  <line x1="21" y1="47" x2="21" y2="17" stroke="url(#craneGrad)" stroke-width="2.5"/>
+  <line x1="25" y1="47" x2="25" y2="17" stroke="url(#craneGrad)" stroke-width="2.5"/>
+  <!-- Bracing (Truss) -->
+  <path d="M21 44l4-5M25 39l-4-5M21 34l4-5M25 29l-4-5M21 24l4-5M25 19l-4-2" stroke="url(#craneGrad)" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Operator Cabin -->
+  <rect x="25.5" y="18" width="5.5" height="7" rx="1.5" fill="#f59e0b" fill-opacity="0.25" stroke="#fbbf24" stroke-width="1.5"/>
+
+  <!-- Tower Top / Apex (Cathead) -->
+  <path d="M20 17l3-10 3 10" stroke="url(#craneGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Horizontal Jib & Counter-Jib -->
+  <line x1="8" y1="17" x2="56" y2="17" stroke="url(#craneGrad)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="12" y1="14" x2="52" y2="14" stroke="url(#craneGrad)" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Jib truss -->
+  <path d="M12 17l3-3 3 3 4-3 4 3 6-3 6 3 6-3 6 3 4-3 4 3" stroke="url(#craneGrad)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Stay Cables from Apex -->
+  <line x1="23" y1="7" x2="10" y2="17" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="1 0" stroke-opacity="0.9"/>
+  <line x1="23" y1="7" x2="38" y2="17" stroke="#fbbf24" stroke-width="1.5" stroke-opacity="0.9"/>
+  <line x1="23" y1="7" x2="50" y2="17" stroke="#fbbf24" stroke-width="1.5" stroke-opacity="0.9"/>
+
+  <!-- Counterweight -->
+  <rect x="9" y="17.5" width="5" height="6.5" rx="1" fill="#f59e0b" stroke="#fbbf24" stroke-width="1"/>
+
+  <!-- Trolley & Hoist Cable -->
+  <rect x="41" y="16" width="5" height="3" rx="0.5" fill="#fbbf24"/>
+  <line x1="43.5" y1="19" x2="43.5" y2="34" stroke="#fbbf24" stroke-width="1.5"/>
+
+  <!-- Hook & Load Block -->
+  <circle cx="43.5" cy="35" r="1.5" fill="#f59e0b"/>
+  <path d="M43.5 36.5v2.5a2 2 0 0 1-2 2h-0.5a1.5 1.5 0 0 1-1.5-1.5c0-1 1-1.5 1.5-1.5" stroke="#fbbf24" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Suspended Beam Load -->
+  <line x1="36" y1="44" x2="51" y2="44" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+  <line x1="43.5" y1="40" x2="39" y2="44" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.8"/>
+  <line x1="43.5" y1="40" x2="48" y2="44" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.8"/>
+</svg>

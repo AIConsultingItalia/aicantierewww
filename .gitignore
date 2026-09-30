@@ -1,0 +1,10 @@
+# Temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+_setup_nginx.py
+
+# Editor files
+.vscode/
+.idea/
