@@ -4,20 +4,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Software Gestione Cantieri Edili, App Rapportini e DDT | AICantiere</title>
+  <title>Gestionale Cantieri Edili, App Rapportini e DDT | AICantiere</title>
   <meta name="description"
-    content="Il software gestionale per cantieri edili che semplifica rapportini giornalieri, gestione DDT e materiali, contabilità SAL e cronoprogramma Gantt. Prova gratis AICantiere da mobile e web." />
+    content="Gestionale per cantieri edili: gestisci rapportini vocali, bolle DDT, cronoprogramma Gantt e sicurezza D.Lgs 81/08. Prova AICantiere su mobile e web." />
   <meta name="keywords"
-    content="software gestione cantieri edili, app rapportini cantiere, gestione ddt cantiere, giornale dei lavori, cronoprogramma gantt edilizia, software cantiere edile, computo metrico cantiere, controllo commessa edilizia, patente a crediti cantiere" />
+    content="software gestione cantieri edili, gestionale cantieri, app rapportini cantiere, gestione ddt cantiere, giornale dei lavori, cronoprogramma gantt edilizia, software cantiere edile, congruità manodopera, job costing cantiere, computo metrico cantiere, controllo commessa edilizia, patente a crediti cantiere" />
   <meta name="author" content="AIConsulting di Di Franco Roberto" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
   <!-- Open Graph / Facebook / LinkedIn -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.aicantiere.eu/" />
-  <meta property="og:title" content="Software Gestione Cantieri Edili, App Rapportini e DDT | AICantiere" />
+  <meta property="og:title" content="Gestionale Cantieri Edili, App Rapportini e DDT | AICantiere" />
   <meta property="og:description"
-    content="Il software gestionale per cantieri edili che semplifica rapportini giornalieri, gestione DDT materiali, contabilità SAL e cronoprogramma Gantt. Prova gratis da mobile e web." />
+    content="Gestionale per cantieri edili: gestisci rapportini vocali, bolle DDT, cronoprogramma Gantt e sicurezza D.Lgs 81/08. Prova AICantiere da mobile e web." />
   <meta property="og:image" content="https://www.aicantiere.eu/assets/images/cantieri.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -27,17 +27,22 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://www.aicantiere.eu/" />
-  <meta name="twitter:title" content="Software Gestione Cantieri Edili, App Rapportini e DDT | AICantiere" />
+  <meta name="twitter:title" content="Gestionale Cantieri Edili, App Rapportini e DDT | AICantiere" />
   <meta name="twitter:description"
-    content="Il software gestionale per cantieri edili che semplifica rapportini giornalieri, gestione DDT materiali, contabilità SAL e cronoprogramma Gantt." />
+    content="Gestionale per cantieri edili: rapportini giornalieri vocali, DDT materiali, cronoprogramma Gantt e sicurezza D.Lgs 81/08." />
   <meta name="twitter:image" content="https://www.aicantiere.eu/assets/images/cantieri.png" />
 
   <link rel="canonical" href="https://www.aicantiere.eu/" />
   <link rel="icon" type="image/svg+xml" href="assets/images/crane-logo.svg" />
   <link rel="alternate icon" href="favicon.ico" />
+
+  <!-- Google Fonts Preconnect per Core Web Vitals -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;600;700;800&display=swap" />
   <link rel="stylesheet" href="assets/css/style.css" />
 
-  <!-- SCHEMA MARKUP JSON-LD: SoftwareApplication & Organization -->
+  <!-- SCHEMA MARKUP JSON-LD: SoftwareApplication, Organization & FAQPage -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -76,14 +81,7 @@
           "Computo metrico estimativo CME e contabilità SAL",
           "Planimetrie 2D con Pinning interattivo per la sicurezza",
           "App mobile 100% offline-first per smartphone e tablet"
-        ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "54",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
+        ]
       },
       {
         "@type": "Organization",
@@ -98,6 +96,44 @@
           "email": "info@aicantiere.eu",
           "availableLanguage": ["Italian", "English"]
         }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.aicantiere.eu/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Come funziona la compilazione offline dei rapportini di cantiere?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "L'app mobile di AICantiere è concepita con architettura offline-first al 100%: permette di registrare ore operai, note vocali a mani libere, fotografie geolocalizzate con data certa EXIF e scarichi di materiale anche in assenza totale di segnale (gallerie, scavi, piani interrati). Al ripristino della rete, tutti i dati vengono sincronizzati automaticamente con il cruscotto d'ufficio."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Come supporta AICantiere la verifica della congruità della manodopera?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "AICantiere traccia analiticamente le presenze e le ore lavorate da operai e subappaltatori associandole alle singole voci della WBS di cantiere, facilitando il monitoraggio dei parametri di congruità della manodopera stabiliti dal D.M. 143/2021 per il rilascio del DURC di congruità CNCE EdilConnect."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "AICantiere include la contabilità analitica e il job costing di cantiere?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sì. Integrando il Computo Metrico Estimativo (CME con prezzari regionali e DEI) con i DDT delle bolle fornitore e le ore manodopera, il modulo di controllo commessa ed EVM (Earned Value Management) calcola in tempo reale gli scostamenti di costo (CPI) e tempo (SPI), garantendo un controllo costante del job costing e dei margini aziendali."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "La piattaforma gestisce la sicurezza cantiere D.Lgs. 81/08 e la Patente a Crediti?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Certamente. AICantiere include il visualizzatore interattivo di planimetrie 2D con apposizione di pin geolocalizzati per prescrizioni e pericoli di sicurezza D.Lgs. 81/2008, il fascicolo documentale digitale (POS, DURC) e la gestione delle maestranze con verifica dello stato di conformità per la Patente a Crediti INL."
+            }
+          }
+        ]
       }
     ]
   }
@@ -368,23 +404,23 @@
           </ul>
         </div>
 
-        <!-- 5. CONTROLLO DI COMMESSA -->
+        <!-- 5. CONTROLLO DI COMMESSA & JOB COSTING -->
         <div class="core-card">
           <span class="core-badge">Modulo Core #5</span>
           <div class="core-icon">📈</div>
-          <h3 class="core-title">Controllo Commessa &amp; Marginalità EVM</h3>
-          <p class="core-desc">Dal Computo Metrico CME (prezzari regionali e DEI) alla contabilità analitica. Dashboard EVM con indici CPI (costi) e SPI (tempi) per intervenire subito e proteggere l'utile d'impresa.</p>
+          <h3 class="core-title">Controllo Commessa, Job Costing &amp; EVM</h3>
+          <p class="core-desc">Dal Computo Metrico CME (prezzari regionali e DEI) alla contabilità analitica e al job costing di cantiere. Dashboard EVM con indici CPI (costi) e SPI (tempi) per intervenire subito e proteggere l'utile d'impresa.</p>
           <ul class="core-features-list">
             <li>Computo CME e conversione 1-click in compiti cantiere</li>
             <li>Contabilità SAL e scadenziario finanziario a 5 stati</li>
-            <li>Analisi predittiva EVM e stima costi a finire (EAC)</li>
+            <li>Analisi predittiva EVM, job costing e stima costi a finire (EAC)</li>
           </ul>
         </div>
       </div>
 
       <div class="text-center fade-up" style="margin: 40px 0 24px;">
         <div class="section-label">⚙️ Suite Completa</div>
-        <h3 style="font-family: var(--font-display); font-size: 1.5rem; color: var(--clr-white);">Tutte le altre funzionalità certificate di AICantiere</h3>
+        <p style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--clr-white);">Tutte le altre funzionalità certificate di AICantiere</p>
       </div>
 
       <div class="features-grid">
@@ -511,8 +547,8 @@
         <div class="feature-card fade-up fade-up-delay-3">
           <div class="feature-icon icon-rose">👷</div>
           <span class="card-badge badge-rose">Amministrazione Personale</span>
-          <h3 class="feature-title">Presenze, Congruità CNCE &amp; Report Paghe</h3>
-          <p class="feature-desc">Rapportini giornalieri con meteo GPS, rispetto D.M. 143/2021 (Cassa Edile) e modulo di stampa ufficiale A4 per l'ufficio paghe con sintesi ore ed esploso con date <code>gg/mm/aaaa</code>.</p>
+          <h3 class="feature-title">Presenze, Congruità della Manodopera &amp; Report Paghe</h3>
+          <p class="feature-desc">Rapportini giornalieri con meteo GPS, calcolo della congruità della manodopera conforme D.M. 143/2021 (Cassa Edile CNCE EdilConnect) e modulo di stampa ufficiale A4 per l'ufficio paghe con sintesi ore ed esploso con date <code>gg/mm/aaaa</code>.</p>
         </div>
       </div>
     </div>
@@ -529,10 +565,10 @@
       <div class="screenshots-grid">
         <!-- 1. Planimetrie & Pinning 2D (IN PRIMO PIANO) -->
         <div class="screenshot-card fade-up fade-up-delay-1" style="border: 2px solid rgba(168,85,247,0.4);">
-          <img src="assets/images/planimetrie_pinning.png" alt="Viewer Planimetrie 2D e Pinning Sicurezza AICantiere" />
+          <img src="assets/images/planimetrie_pinning.png" alt="Viewer Planimetrie 2D e Pinning Sicurezza AICantiere" loading="lazy" />
           <div class="screenshot-info">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
-              <h3 style="margin:0;">🗺️ Planimetrie &amp; Pinning 2D</h3>
+              <h3 style="margin:0;"><span aria-hidden="true">🗺️ </span>Planimetrie &amp; Pinning 2D</h3>
               <span class="card-badge badge-purple" style="margin:0;">In Evidenza</span>
             </div>
             <p>Tavole grafiche renderizzate in alta definizione con zoom e pan fluidi. Apposizione pin a colori per sicurezza (D.Lgs. 81/2008), compiti WBS e rilievi fotografici con drawer laterale di prescrizione.</p>
@@ -540,49 +576,49 @@
         </div>
         <!-- 2. Cantieri -->
         <div class="screenshot-card fade-up fade-up-delay-2">
-          <img src="assets/images/cantieri.png" alt="Cruscotto Cantieri AICantiere" />
+          <img src="assets/images/cantieri.png" alt="Cruscotto Cantieri AICantiere" loading="lazy" />
           <div class="screenshot-info">
-            <h3>📊 Cruscotto Cantieri &amp; KPI</h3>
+            <h3><span aria-hidden="true">📊 </span>Cruscotto Cantieri &amp; KPI</h3>
             <p>Panoramica completa del portafoglio lavori: volumi economici contrattuali, avanzamento temporale automatico e filtri per categoria d'opera.</p>
           </div>
         </div>
         <!-- 3. Gantt -->
         <div class="screenshot-card fade-up fade-up-delay-3">
-          <img src="assets/images/gantt.png" alt="Gantt Interattivo 60gg AICantiere" />
+          <img src="assets/images/gantt.png" alt="Gantt Interattivo 60gg AICantiere" loading="lazy" />
           <div class="screenshot-info">
-            <h3>📅 Cronoprogramma di Gantt a 60 Giorni</h3>
+            <h3><span aria-hidden="true">📅 </span>Cronoprogramma di Gantt a 60 Giorni</h3>
             <p>Timeline scorrevole con espansione asincrona per singola risorsa (operai, macchinari, sospensioni meteo e milestone scadenze compiti).</p>
           </div>
         </div>
         <!-- 4. Calendario Conflitti -->
         <div class="screenshot-card fade-up fade-up-delay-1">
-          <img src="assets/images/calendario.png" alt="Calendario Conflitti Risorse AICantiere" />
+          <img src="assets/images/calendario.png" alt="Calendario Conflitti Risorse AICantiere" loading="lazy" />
           <div class="screenshot-info">
-            <h3>🗓️ Calendario &amp; Allarme Conflitti Risorse ⚠️</h3>
+            <h3><span aria-hidden="true">🗓️ </span>Calendario &amp; Allarme Conflitti Risorse</h3>
             <p>Rilevamento istantaneo delle doppie assegnazioni di operai o macchinari sullo stesso giorno, azzerando i costosi fermi cantiere.</p>
           </div>
         </div>
         <!-- 5. Offerte & Computo CME -->
         <div class="screenshot-card fade-up fade-up-delay-2">
-          <img src="assets/images/offerte.png" alt="CRM Offerte e Computo Metrico Estimativo CME" />
+          <img src="assets/images/offerte.png" alt="CRM Offerte e Computo Metrico Estimativo CME" loading="lazy" />
           <div class="screenshot-info">
-            <h3>💼 Offerte Commerciali &amp; Computo Metrico (CME)</h3>
+            <h3><span aria-hidden="true">💼 </span>Offerte Commerciali &amp; Computo Metrico (CME)</h3>
             <p>Scomposizione analitica dei prezzi, applicazione mark-up/ribasso, stampa offerta PDF e conversione 1-click in cantiere con compiti operativi.</p>
           </div>
         </div>
         <!-- 6. Materiali & DDT -->
         <div class="screenshot-card fade-up fade-up-delay-3">
-          <img src="assets/images/materiali_ddt.png" alt="Report Ufficiale Giacenze e Movimenti Materiali AICantiere" />
+          <img src="assets/images/materiali_ddt.png" alt="Report Ufficiale Giacenze e Movimenti Materiali AICantiere" loading="lazy" />
           <div class="screenshot-info">
-            <h3>📦 Report Giacenze &amp; Movimenti Materiali</h3>
+            <h3><span aria-hidden="true">📦 </span>Report Giacenze &amp; Movimenti Materiali</h3>
             <p>Schermata reale: monitoraggio carichi da DDT fornitore, scarichi associati ai compiti, calcolo giacenze in tempo reale e stampa A4.</p>
           </div>
         </div>
         <!-- 7. App Mobile -->
         <div class="screenshot-card card-mobile fade-up fade-up-delay-1">
-          <img src="assets/images/app-mobile-campo.jpg" alt="App Mobile AICantiere Campo per Operatori" />
+          <img src="assets/images/app-mobile-campo.jpg" alt="App Mobile AICantiere Campo per Operatori" loading="lazy" />
           <div class="screenshot-info">
-            <h3>📱 App Mobile "AICantiere Campo" (100% Offline)</h3>
+            <h3><span aria-hidden="true">📱 </span>App Mobile "AICantiere Campo" (100% Offline)</h3>
             <p>Timbrature GPS, scarico materiali rapido sui compiti, prove fotografiche certificate EXIF e fascicolo digitale consultabile senza rete.</p>
           </div>
         </div>
@@ -599,12 +635,12 @@
           <div class="mobile-dual-phones">
             <div class="mobile-phone phone-back">
               <span class="phone-tag">🔐 Accesso Diretto</span>
-              <img src="assets/images/app-mobile-login.jpg" alt="Login e autenticazione AICantiere Campo" />
+              <img src="assets/images/app-mobile-login.jpg" alt="Login e autenticazione AICantiere Campo" loading="lazy" />
             </div>
             <div class="mobile-phone phone-front">
               <span class="phone-tag">🚧 Selezione Cantiere</span>
               <img src="assets/images/app-mobile-cantieri.jpg"
-                alt="Selezione cantiere geolocalizzato AICantiere Campo" />
+                alt="Selezione cantiere geolocalizzato AICantiere Campo" loading="lazy" />
             </div>
           </div>
         </div>
@@ -616,84 +652,84 @@
             <div class="mobile-feature">
               <div class="mf-icon">📶</div>
               <div class="mf-text">
-                <h4>100% Offline-First Nativa</h4>
+                <h3 class="mf-title">100% Offline-First Nativa</h3>
                 <p>Funziona in gallerie, scavi e piani interrati: dati, foto e timbrature salvati in locale e sincronizzati al ritorno del segnale.</p>
               </div>
             </div>
             <div class="mobile-feature">
               <div class="mf-icon">📍</div>
               <div class="mf-text">
-                <h4>Timbrature &amp; Presenze GPS</h4>
-                <p>Rilevamento satellitare di ingresso e uscita certificato: dati validi per Cassa Edile e verifiche di congruità CNCE EdilConnect.</p>
+                <h3 class="mf-title">Timbrature &amp; Presenze GPS</h3>
+                <p>Rilevamento satellitare di ingresso e uscita certificato: dati validi per Cassa Edile e verifiche di congruità della manodopera CNCE EdilConnect.</p>
               </div>
             </div>
             <div class="mobile-feature">
               <div class="mf-icon">📷</div>
               <div class="mf-text">
-                <h4>Prove Fotografiche Blindate</h4>
+                <h3 class="mf-title">Prove Fotografiche Blindate</h3>
                 <p>Data e ora certa EXIF e coordinate GPS incorporate nell'immagine: tutela totale contro contestazioni su lavorazioni coperte e SAL.</p>
               </div>
             </div>
             <div class="mobile-feature">
               <div class="mf-icon">📦</div>
               <div class="mf-text">
-                <h4>Scarico Materiali sul Campo</h4>
+                <h3 class="mf-title">Scarico Materiali sul Campo</h3>
                 <p>Registrazione rapida del prelievo merci con associazione diretta al compito in corso, aggiornando le giacenze di cantiere con un tocco.</p>
               </div>
             </div>
             <div class="mobile-feature">
               <div class="mf-icon">🚜</div>
               <div class="mf-text">
-                <h4>Macchinari &amp; Attrezzature</h4>
+                <h3 class="mf-title">Macchinari &amp; Attrezzature</h3>
                 <p>Controllo dei mezzi presenti sul posto, ore di funzionamento effettivo e registrazione di stati operativi e fermi macchina.</p>
               </div>
             </div>
             <div class="mobile-feature">
               <div class="mf-icon">🤝</div>
               <div class="mf-text">
-                <h4>Verifica Subappaltatori</h4>
+                <h3 class="mf-title">Verifica Subappaltatori</h3>
                 <p>Censimento ditte terze autorizzate, controllo idoneità e monitoraggio giornaliero delle maestranze in subappalto presenti.</p>
               </div>
             </div>
             <div class="mobile-feature">
               <div class="mf-icon">🗺️</div>
               <div class="mf-text">
-                <h4>Planimetrie 2D &amp; Pinning Offline</h4>
+                <h3 class="mf-title">Planimetrie 2D &amp; Pinning Offline</h3>
                 <p>Ispezione tavole grafiche con zoom a due dita a 60fps, apposizione pin sul posto con coordinate percentuali e chiusura prescrizioni senza segnale.</p>
               </div>
             </div>
             <div class="mobile-feature">
               <div class="mf-icon">🎙️</div>
               <div class="mf-text">
-                <h4>Voice-to-Report a Mani Libere</h4>
+                <h3 class="mf-title">Voice-to-Report a Mani Libere</h3>
                 <p>Dettatura vocale intelligente per compilare rapportini giornalieri e prescrizioni di sicurezza direttamente sul campo indossando i guanti da lavoro.</p>
               </div>
             </div>
             <div class="mobile-feature">
               <div class="mf-icon">📁</div>
               <div class="mf-text">
-                <h4>Fascicolo Documentale Mobile</h4>
+                <h3 class="mf-title">Fascicolo Documentale Mobile</h3>
                 <p>Accesso immediato a POS, DURC aziendali, planimetrie e relazioni tecniche direttamente dallo smartphone sul campo.</p>
               </div>
             </div>
             <div class="mobile-feature">
               <div class="mf-icon">📸</div>
               <div class="mf-text">
-                <h4>Scansione Documenti sul Campo</h4>
+                <h3 class="mf-title">Scansione Documenti sul Campo</h3>
                 <p>Digitalizzazione rapida di DDT cartacei, bolle e certificati con invio istantaneo alla cabina di regia dell'ufficio tecnico.</p>
               </div>
             </div>
             <div class="mobile-feature">
               <div class="mf-icon">📊</div>
               <div class="mf-text">
-                <h4>Rapportino Giornaliero</h4>
+                <h3 class="mf-title">Rapportino Giornaliero</h3>
                 <p>Generazione automatica a fine giornata con sintesi presenze, ore lavorate, mezzi impiegati e avanzamento dei compiti svolti.</p>
               </div>
             </div>
             <div class="mobile-feature">
               <div class="mf-icon">☀️</div>
               <div class="mf-text">
-                <h4>Ergonomia Visiva Anti-Riflesso</h4>
+                <h3 class="mf-title">Ergonomia Visiva Anti-Riflesso</h3>
                 <p>Visualizzazione ottimizzata con la Palette Ardesia per leggere chiaramente schede e compiti anche sotto la luce solare diretta.</p>
               </div>
             </div>
@@ -1006,14 +1042,14 @@
             <li><a href="https://www.aiconsultingitalia.com" target="_blank" rel="noopener">AIConsulting Italia</a></li>
             <li><a href="mailto:info@aicantiere.eu">info@aicantiere.eu</a></li>
             <li><a href="tel:+393400664626">Tel. 340 0664626</a></li>
-            <li><a href="privacy-policy.html">Privacy Policy GDPR</a></li>
+            <li><a href="/privacy-policy.html">Privacy Policy GDPR</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
         <p>&copy; 2026 AIConsulting di Di Franco Roberto — <a href="https://www.aiconsultingitalia.com" target="_blank"
             rel="noopener">aiconsultingitalia.com</a> — P.IVA IT02158710679</p>
-        <p><a href="privacy-policy.html">Privacy Policy &amp; Trattamento Dati</a></p>
+        <p><a href="/privacy-policy.html">Privacy Policy &amp; Trattamento Dati</a></p>
       </div>
     </div>
   </footer>

@@ -3,8 +3,6 @@
    Design System: Dark Premium + Glassmorphism
    ================================================ */
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;600;700;800&display=swap");
-
 /* VARIABLES */
 :root {
   --clr-bg:        #080d14;
@@ -398,7 +396,9 @@ ul { list-style: none; }
   border-radius: var(--radius-sm);
   font-size: 1.25rem;
 }
-.mf-text h4 {
+.mf-text h3,
+.mf-text h4,
+.mf-title {
   font-size: 0.92rem;
   font-weight: 700;
   color: var(--clr-white);

@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gestione dei DDT Edili: dalla Carta all'App Mobile | AICantiere</title>
+  <title>Gestione DDT Edili da Mobile e Magazzino | AICantiere</title>
   <meta name="description"
-    content="Guida pratica per imprese edili: come gestire i DDT e le bolle di fornitura da app mobile, azzerare ammanchi di magazzino e imputare i costi ai compiti esecutivi." />
+    content="Guida alla gestione dei DDT edili da app mobile: azzera ammanchi di magazzino, monitora le giacenze live e imputa i costi alle lavorazioni di cantiere." />
   <meta name="keywords"
     content="gestione ddt cantiere, bolle consegna cantiere edile, app ddt materiali, scarico materiali cantiere, giacenze cantiere tempo reale, controllo commessa edilizia, ntc 2018 prelievi calcestruzzo" />
   <meta name="author" content="Roberto Di Franco - AIConsulting" />
@@ -15,7 +15,7 @@
   <!-- Open Graph / LinkedIn / Facebook -->
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://www.aicantiere.eu/blog/gestione-ddt-edili-dalla-carta-all-app-mobile/" />
-  <meta property="og:title" content="Gestione dei DDT Edili: dalla Carta all'App Mobile per Azzerare Ammanchi e Contestazioni" />
+  <meta property="og:title" content="Gestione dei DDT Edili: dalla Carta all'App Mobile | AICantiere" />
   <meta property="og:description"
     content="Le bolle fornitore smarrite costano migliaia di euro. Scopri come digitalizzare l'ingresso merci, controllare le giacenze e imputare i consumi alle singole voci di costo." />
   <meta property="og:image" content="https://www.aicantiere.eu/assets/images/materiali_ddt.png" />
@@ -28,7 +28,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://www.aicantiere.eu/blog/gestione-ddt-edili-dalla-carta-all-app-mobile/" />
-  <meta name="twitter:title" content="Gestione dei DDT Edili: dalla Carta all'App Mobile" />
+  <meta name="twitter:title" content="Gestione DDT Edili da Mobile e Magazzino | AICantiere" />
   <meta name="twitter:description"
     content="Come digitalizzare le bolle di fornitura in cantiere, eliminare gli sprechi e calcolare le giacenze live con AICantiere." />
   <meta name="twitter:image" content="https://www.aicantiere.eu/assets/images/materiali_ddt.png" />
@@ -36,38 +36,70 @@
   <link rel="canonical" href="https://www.aicantiere.eu/blog/gestione-ddt-edili-dalla-carta-all-app-mobile/" />
   <link rel="icon" type="image/svg+xml" href="../../assets/images/crane-logo.svg" />
   <link rel="alternate icon" href="../../favicon.ico" />
+
+  <!-- Google Fonts Preconnect per Core Web Vitals -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;600;700;800&display=swap" />
   <link rel="stylesheet" href="../../assets/css/style.css" />
 
-  <!-- SCHEMA MARKUP JSON-LD: BlogPosting -->
+  <!-- SCHEMA MARKUP JSON-LD: BlogPosting & BreadcrumbList -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.aicantiere.eu/blog/gestione-ddt-edili-dalla-carta-all-app-mobile/"
-    },
-    "headline": "Gestione dei DDT edili: dalla carta all'app mobile per azzerare ammanchi e contestazioni",
-    "description": "Guida pratica per imprese edili: come gestire i DDT e le bolle di fornitura da app mobile, azzerare ammanchi di magazzino e imputare i costi ai compiti esecutivi.",
-    "image": "https://www.aicantiere.eu/assets/images/materiali_ddt.png",
-    "author": {
-      "@type": "Person",
-      "name": "Roberto Di Franco",
-      "jobTitle": "Senior Software Architect & Edilizia Digitale",
-      "url": "https://www.aiconsultingitalia.com"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "AIConsulting di Di Franco Roberto",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.aicantiere.eu/assets/images/logo.png"
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.aicantiere.eu/blog/gestione-ddt-edili-dalla-carta-all-app-mobile/"
+        },
+        "headline": "Gestione dei DDT edili: dalla carta all'app mobile per azzerare ammanchi e contestazioni",
+        "description": "Guida pratica per imprese edili: come gestire i DDT e le bolle di fornitura da app mobile, azzerare ammanchi di magazzino e imputare i costi ai compiti esecutivi.",
+        "image": "https://www.aicantiere.eu/assets/images/materiali_ddt.png",
+        "author": {
+          "@type": "Person",
+          "name": "Roberto Di Franco",
+          "jobTitle": "Senior Software Architect & Edilizia Digitale",
+          "url": "https://www.aiconsultingitalia.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "AIConsulting di Di Franco Roberto",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.aicantiere.eu/assets/images/logo.png"
+          }
+        },
+        "datePublished": "2026-10-18T08:00:00+02:00",
+        "dateModified": "2026-10-18T08:00:00+02:00",
+        "articleSection": "Logistica & DDT",
+        "inLanguage": "it-IT"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.aicantiere.eu/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog & Risorse",
+            "item": "https://www.aicantiere.eu/blog/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Gestione dei DDT Edili da Mobile",
+            "item": "https://www.aicantiere.eu/blog/gestione-ddt-edili-dalla-carta-all-app-mobile/"
+          }
+        ]
       }
-    },
-    "datePublished": "2026-10-18T08:00:00+02:00",
-    "dateModified": "2026-10-18T08:00:00+02:00",
-    "articleSection": "Logistica & DDT",
-    "inLanguage": "it-IT"
+    ]
   }
   </script>
 </head>
